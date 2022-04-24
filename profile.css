@@ -86,7 +86,62 @@
 }
 
 .btn:hover {
-    background: #256ec8;
+    background: #333;
     color: #fff;
 
+}
+.top{
+    margin: 30px;
+    text-align: center;
+    text-shadow: #333;
+    font-size: 18px;
+    font-style: oblique;
+}
+.home{
+    color: #333;
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    margin: 30px 0 10px;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
+    transition: all 0.318s ease;
+}
+.home:hover {
+    color: #fff;
+    background-color: rgb(169, 243, 108);
+}
+.join{
+    color: #333;
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    margin: 30px 0 10px;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
+    transition: all 0.318s ease;
+}
+.join:hover{
+    color: #ffffff;
+    background-color: #3cd1fa;
+}
+.register{
+    color: #333;
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    margin: 30px 0 10px;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
+    transition: all 0.318s ease;
+}
+.register:hover{
+    color: #fff;
+    background-color: red;
+}
+.about{
+    color: #333;
+    padding: 10px 20px;
+    /* border-radius: 25px; */
+    margin: 30px 0 10px;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
+    transition: all 0.318s ease;
+}
+.about:hover{
+    color: white;
+    background-color: orange;
 }
